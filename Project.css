@@ -1,0 +1,82 @@
+a{
+    font-size: 7vh;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+/* Left Side of the box */
+.left_box{
+    /* border:2px solid red; */
+    width:50vh;
+    height: 150vh;
+    background-color: rgba(106 ,114 ,96,0.3);
+    color:white;
+    margin:0px;
+}
+/* Making margin and padding of they page zer */
+*{
+    margin:0px;
+    padding: 0px;
+}
+.right_box{
+    /* border:2px solid red; */
+    width:100pvh;
+    margin-left:.30px;
+}
+.image{
+    align-content: center;
+    align-items: center;
+    padding-left: 2vh;
+}
+img{
+    width: 20vh;
+    height:20vh;
+    margin-top:5vh;
+    padding: 3vh; 
+    border-radius: 40px;
+    margin:1vh
+}
+.Main_Reference_Icon{
+    margin-left: 5vh;
+    margin-top: 35vh;
+    display: flex;
+    width: 38vh;
+    height: 8vh;
+    background-color:rgba(106 ,114 ,96,0.3);
+}
+/* Styling for Social Media icon */
+.Reference_Icon{
+    align-items: center;
+    display: inline ;
+    filter: grayscale(100%);
+    width:5vh;
+    padding :2px;
+    height:5vh;
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+}
+.Main_Reference_Icon a:hover{
+ background-color: gold;
+}
+#maineImage:hover{  
+background-color: rgba(106 ,114 ,96,0);
+}
+#maineImage{
+ width:40vh;
+        height:40vh;
+    
+}
+.tab:hover{
+        background-color: royalblue;
+}
+.tab{
+        border:2px inset rgba(23, 6, 7, 0.4);
+        border-radius: 8px;
+        font-size: 8vh;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        margin: 20px;
+ }
